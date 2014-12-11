@@ -2,6 +2,9 @@ require "syntax/extensions/version"
 
 module Syntax
   module Extensions
-    # Your code goes here...
   end
 end
+
+require 'syntax/extensions/asmhighlight'
+require 'syntax/extensions/gherkinhighlight'
+require 'syntax/extensions/dothighlight'
